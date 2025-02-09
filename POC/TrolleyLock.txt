@@ -1,4 +1,4 @@
-Trollock
+TrolleyLock
 	- Card reader
 	- GPS
 
@@ -20,3 +20,21 @@ Application
 
 Microservices
 	- This will have a light applications front end and a heftier business logic.
+
+
+Done:
+	Set up stores and trolleys controller.
+
+To Do:
+	Set up staff controller
+	Set up payment controller
+		Set up best way to not leak CC information.
+	Test API endpoints from CMD Line.
+	
+
+	Set up database
+	Set up application(1st. Web application. 2nd. Mobile application.) front end
+	
+	Set up GPS.
+
+	Potentially check for any features that the client would like.
