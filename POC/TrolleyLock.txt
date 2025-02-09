@@ -1,0 +1,22 @@
+Trollock
+	- Card reader
+	- GPS
+
+
+Database
+	Tables
+		Stores
+		Trolleys
+		Staff
+		
+
+	- Guid Identifier
+	- Store Identifier
+	
+
+Application
+	- Notification of missing trolleys/trolleys going outside of premises (100 metres out of the stores boundaries.) And a gps trigger of exactly where they are.
+
+
+Microservices
+	- This will have a light applications front end and a heftier business logic.
