@@ -8,7 +8,7 @@ Database
 		Stores
 		Trolleys
 		Staff
-		
+		Transactions
 
 	- Guid Identifier
 	- Store Identifier
@@ -24,11 +24,15 @@ Microservices
 
 Done:
 	Set up stores and trolleys controller.
+	Set up cryptography and applied tests to test its functionality.
 
 To Do:
-	Set up staff controller
+	Set up staff controller - Just initial creation, can be expanded upon.
+		- Get staff
+		- Get staff by store
+		- Get staff by role
 	Set up payment controller
-		Set up best way to not leak CC information.
+		Set up best way to not leak CC information - Cryptography or to be sent immediately from the trolley so it does not touch our business logic and just waits for a response for authorisation.
 	Test API endpoints from CMD Line.
 	
 
